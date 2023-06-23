@@ -1,18 +1,24 @@
-## Getting Started
+# Sintaxe para Controle de Fluxo 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Caixa eletrônico**
 
-## Folder Structure
+    Apenas um if_else para vericar o saldo da conta.
 
-The workspace contains two folders by default, where:
+**Resultado escolar**
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    Um if_elseif_else para notas do aluno e determinar se foi aprovado ou não.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+**Sistema de medida**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    Exemplo de Switch Case. Similar ao if-else mas mais verborrágico... 
 
-## Dependency Management
+**Plano Operadora**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    Situação indicada para Switch Case. Repare que nesse caso é melhor que if_else, pois não precisa repetir cada print em cada condição.
+    
+    Exemplo:
+    3 tipos de Plano telefônico 
+    *BASIC: 100 minutos de ligação
+    *MIDIA: 100 minutos de ligação + Whats e Instagram grátis
+    *TURBO: 100 minutos de ligação + Whats e Instagram grátis + 5gb de youtube.
+
